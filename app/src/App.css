@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.pagination {
+  display: inline-block;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.pagination li {
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-decoration: underline;
+}
+.pagination .disabled{
+  color:gray;
+}
+.pagination .active{
+  color:blue;
+}
